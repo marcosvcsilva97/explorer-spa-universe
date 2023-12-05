@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background: url('../assets/mountains-universe-3.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    padding: 4rem 7.2rem;
+}
+
+nav a {
+    color: #C4C4CC;
+    font-size: 2rem;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: .1rem;
+}
+
+nav a.active {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+#content-home {
+    text-align: center;
+}
+
+#title-home {
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 6rem;
+    margin-top: 15.7rem;
+}
+
+button {
+    margin-top: 2.4rem;
+    padding: 1.2rem 3.2rem;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background: none;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #FFF;
+    color: #02799D;
+}
+
+/* O Universo and Exploração */
+#content-universe,
+#content-exploration {
+    margin-left: 10.2rem;
+}
+
+#title-universe,
+#title-exploration {
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 6rem;
+    margin-top: 6.3rem;
+}
+
+p {
+    width: 64.8rem;
+    margin-top: 1.6rem;
+    color:#E1E1E6;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
